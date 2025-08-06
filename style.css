@@ -1,0 +1,125 @@
+*{
+    font-family:  'Poppins' ,sans-serif;
+    margin: 0;
+    font-display: center;
+    background:url(background.img.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.header{
+    position:fixed;
+    top:20px;
+    display:flex;
+    justify-content: space-between;
+    font-weight:100;
+    width: 100%;
+    align-items: center;
+    padding:  20px 0px ;
+    z-index: 100;
+    background: transparent;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration:none;
+    color: #ededed;
+    margin-left: 40px;
+}
+.header-content a{
+    color: #ffffff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.header-content a:hover,
+.header-content a.active{
+    color: aqua;
+    transform: translateY(-5px);
+    text-shadow: 0 5px 10px rgb(61, 158, 169);
+    
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.home-content h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left:40px;
+}
+.home-content a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    color:aqua;
+    transition: 0.5s;
+}
+.home-content a:hover{
+    color: #00bcd4;
+    transform: translateY(-5px);
+    text-shadow: 0 5px 10px rgb(61, 158, 169);
+}
+.home-content p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 40%;
+    text-align: left;
+    margin-left: 40px;
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: left;
+    margin-left: 55px;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+}
+.btn-box a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #00bcd4;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    shape-margin: solid 10px;
+    box-shadow: 0 5px 10px rgb(0, 181, 201);
+}
+.home-content .btn-box a:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    color:#ffffff;
+}
+.home-sci a{
+    text-decoration: none;
+    margin-left: 40px;
+}
+.home-sci a img{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.home-sci a img:hover{
+
+    transform: translateY(-5px);
+    background:#00bcd4 ;
+    box-shadow: 0 5px 10px rgb(61, 158, 169);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    bottom: 70px;
+    text-shadow: #00bcd4;
+}
